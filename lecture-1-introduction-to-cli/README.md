@@ -70,6 +70,48 @@ In NodeJS/ CLI we need something to get the input, for that purpose we use [<cod
       -  <code>readlineSync.keyInSelect(answerSetArray, 'question?')</code><br />
             In this case, along with the question, the mentioned **answerSetArray**'s elements would be displayed as multiple choices for the given question.<br /> The users are prompted to type the index ( which will be mentioned alongside the choices ) of the correct answer.
       
+## Basic concepts     
+### 1. Variable
+- What is a <code>variable</code>?<br />
+It is a placeholder in computer memory, where we store a certain value which we will access in future via a reference name.
+  - There are different types of variables :
+     - String
+     - Number
+     - Boolean and many more
+### How to declare a variable ?
+-  To declare a variable we can use three keywords .i.e. var, let, and const
+    -  Syntax:  
+    <code>var userName = "user"; </code>
+-  When to use var, let, and const?
+    1. <code>var</code> <br />
+    It can be global/functional scoped and it is used for variables which need to be re-declared and updated.
+    2. <code>let</code> <br />
+    It is block scoped and can be updated but not re-declared.
+    3. <code>const</code> <br /> 
+    It is also block scoped but it can't be updated or redeclared.
+### CamelCase
+-  Camelcase is used preferably as naming convention in Javascript.
+- Example: <code>userName, getPrice, etc.</code>
+
+### String 
+- String can be any text written inside double or single quotes.
+- <code>String Concatenation</code>
+    - Adding two strings or merging of two strings, using addition sign “ + ” is called as string concatenation. 
+
+### 2. Data Structures
+A **Data Structure** is a particular way of organizing data in a computer and **Array** is the simplest data structure where each data element can be randomly accessed by using its index number.
+- In JavaScript, Arrays are not primitive, they are **Objects**
+
+
+### Object
+- An Object stores the data in form of key-value pairs.
+- The values can be accessed by using their respective keys.
+- Therefore, these keys act as properties of the object.
+- How do we access property?
+  - We access property by using *dot* notation
+  - Example:<br /><code>var Obj = {key:value};<br />console.log(Obj.key);</code><br />
+  *Everything in JS is an Object*
+  
 
 
 
