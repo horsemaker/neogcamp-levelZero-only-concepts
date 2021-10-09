@@ -29,7 +29,7 @@ Tools we can use for JavaScript and NodeJS
 
 ### 2. To get the input from the user
 - In browser<br />
-<code>prompt(“enter your name”);</code><br />
+<pre>prompt(“enter your name”);</pre><br />
 Returns the user's input in console
 - In NodeJS/ CLI app<br />
 In NodeJS/ CLI we need something to get the input, for that purpose we use [<code>readline-sync</code>](https://www.npmjs.com/package/readline-sync) <br />
@@ -51,7 +51,7 @@ In NodeJS/ CLI we need something to get the input, for that purpose we use [<cod
     >v6.9.0<br />
     >
     3. Install <code>readline-sync</code> by running command in Command Prompt   
-    <code>npm install readline-sync</code><br /><br />
+    <pre>npm install readline-sync</pre><br /><br />
     
     - **<code>readline-sync</code> is a npm-library**
     
