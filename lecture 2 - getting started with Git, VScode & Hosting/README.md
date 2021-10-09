@@ -26,7 +26,7 @@ Traditionally, a Git workflow will involve the following steps:
 ><h3>Why do we have to push the changes?</h3>
 
 - All the changes that you did until now were being saved locally. But it might happen that your computer crashes and you might 
-lose all these changes. We push the changes so that the code will be available to us on cloud and we can share and collaborate with others. 
+lose all these changes. We push the changes so that the code will be available on cloud and we can share and collaborate with others. 
 
 <p>&nbsp;</p>
 
@@ -35,11 +35,11 @@ lose all these changes. We push the changes so that the code will be available t
 <br/><br/>
 
 ><h3>Difference between Git and GitHub:</h3>
-* Git is a local change tracking mechanism whereas GitHub is a cloud storage & collaboration
+* Git is a local change tracking mechanism whereas GitHub is a cloud storage & allows collaboration.
 <br/><br/>
 ><h3>Why GitHub?</h3>
 - allows real-time collaboration
-- it encourages teams to work together to build and edit their site content.
+- it encourages teams to work together to build and edit their site content
 <p>&nbsp;</p>
 
 # HOW DOES GITHUB WORKS?
@@ -60,6 +60,7 @@ affecting the original repository.
 ><h3> Being social</h3>
 - You can interact with people, repositories, and organizations on GitHub. See what others are working on and who they're connecting with from your personal dashboard.
 
+<p>&nbsp;</p>
 
 # KNOWING HOW A DEV IN A TEAM WORKS?
 
@@ -67,7 +68,7 @@ affecting the original repository.
 When working in a team, you can work in 
 different branches.
 ><h3>Branching </h3>
-- Use a branch to isolate development work without affecting other branches in the repository. Each repository has one default branch, and can have multiple other branc</h3>
+- Use a branch to isolate development work without affecting other branches in the repository. Each repository has one default branch, and can have multiple other branches</h3>
 ><h3>Pull requests</h3>
 - Lets you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the 
 potential changes with collaborators and add follow-up commits before your changes are merged into the base(main) branch. If you're working in the shared repository model, it is advisable to use a separate branch for your pull request.
@@ -75,7 +76,7 @@ potential changes with collaborators and add follow-up commits before your chang
 - When you want to make changes in the repository,always remember to pull origin to have all the changes on your local machine. Changes are pulled from server to client.
 ><h3>Push origin</h3>
 - When you are done making changes  locally u need to push them so that everyone in the team can view your work. Changes are pushed from client to server.
-
+<p>&nbsp;</p>
 
 # ALL ABOUT COMMITS!
 
@@ -115,7 +116,7 @@ _(just like undo)_
 
 - When you type the name of a website, the browser goes and asks the server if 
 it has this website. 
-- There are 2 types of servers involved here: 
+- There are 2 types of servers involved here: <br>
 server 1 - knows where website is / tells address of the website<br>
 server 2 - the one who actually hosts the website.<br>
 server 2 then gives the information to server 1 which further gives it to the browser and 
@@ -132,15 +133,15 @@ _Not hosting a good app is like baking a cake, decorating it, but not eating_ :(
 # HOW TO HOST YOUR WEBSITE FOR FREE?
 _Now, let's enjoy the cake!!!!_
 
-There are many platforms to host your website for free like Vercel,Netlify,Azure, AWS, Heroku etc.
+There are many platforms to host your website for free like Vercel, Netlify, Azure, AWS, Heroku etc.
 
 
 Netlify has github integration and is very simple to use.
 
 ><h3>How to use netlify?</h3>
-- sign up to netlify using your Github login
+- sign up to netlify using your GitHub login
 - Select new site from repository
-- Select your Github repository
+- Select your GitHub repository
 - And your website will get deployed
 - you can even edit the domain name
 <br></br>
@@ -148,7 +149,8 @@ Netlify has github integration and is very simple to use.
 - Everytime you change something on the website and push it on github it will be published automatically
 on netlify.
 <br></br>
-**Some things to remember:**
+
+_Some things to remember:_
 - main file should be index.html otherwise netlify won't deploy
 - netlify deploys only from main branch
 
@@ -173,11 +175,11 @@ An IDE (integrated development environment) made by Microsoft for Windows, Linux
 ><h3>Some shortcuts to save time</h3>
 
 - Show and hide terminal: ctrl + `
-- Show n hide sidebar: ctrl + b 
+- Show and hide sidebar: ctrl + b 
 - Open any file: ctrl + p
 - Access all available commands based on your current context : ctrl+shift + p
 - Jump to symbols: ctrl + p and then type '@symbol'
-- Jump to symbol : ctrl + p and then type ' : line-number '
+- Jump to line : ctrl + p and then type ' : line-number '
 - Toggle wrap: alt+z
 - Code formatting: alt + shift + f
 
