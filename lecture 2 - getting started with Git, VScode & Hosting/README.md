@@ -68,8 +68,9 @@ When working in a team, you can work in
 different branches.
 ><h3>Branching </h3>
 - Use a branch to isolate development work without affecting other branches in the repository. Each repository has one default branch, and can have multiple other branc</h3>
-- Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the 
-potential changes with collaborators and add follow-up commits before your changes are merged into the base(main) branch.
+><h3>Pull requests</h3>
+- Lets you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the 
+potential changes with collaborators and add follow-up commits before your changes are merged into the base(main) branch. If you're working in the shared repository model, it is advisable to use a separate branch for your pull request.
 ><h3>Pull origin </h3>
 - When you want to make changes in the repository,always remember to pull origin to have all the changes on your local machine. Changes are pulled from server to client.
 ><h3>Push origin</h3>
