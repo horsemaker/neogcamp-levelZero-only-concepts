@@ -15,7 +15,7 @@
 
 <p>&nbsp;</p>
 
-# HOW DOES GIT WORKS ?
+# HOW DOES GIT WORK?
 
 With Git, a developer can have full history of their code repository locally. 
 
@@ -45,7 +45,7 @@ lose all these changes. We push the changes so that the code will be available o
 - it encourages teams to work together to build and edit their site content
 <p>&nbsp;</p>
 
-# HOW DOES GITHUB WORKS?
+# HOW DOES GITHUB WORK?
 
 If you don't need to work with files locally, GitHub lets you complete many Git-related actions directly in the browser, including :
 
@@ -136,7 +136,7 @@ _Not hosting a good app is like baking a cake, decorating it, but not eating_ :(
 # HOW TO HOST YOUR WEBSITE FOR FREE?
 _Now, let's enjoy the cake!!!!_
 
-There are many platforms to host your website for free like Vercel, Netlify, Azure, AWS, Heroku etc.
+There are many platforms to host your website for free like Vercel, Netlify, GitHub Pages, Heroku etc.
 
 
 Netlify has github integration and is very simple to use.
