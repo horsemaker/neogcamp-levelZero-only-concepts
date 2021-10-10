@@ -9,7 +9,7 @@
 ><h3>CSS Syntax:</h3>
 
 <br>
-<img src="images/csssyntax.png" style="max-width:400px;"/>
+<img src="images/csssyntax.png" style="max-width:350px;"/>
 <br><br/>
 
 ><h3>Difference between CSS and CSS3</h3> 
