@@ -6,3 +6,9 @@ In this document, along with the concepts, we will also address some keywords us
 - Here, **HyperText** means a text which contains links to other texts and **Markup Language** is a computer language that uses tags to define elements within a document.
 
 ***HTML and CSS are not programming, they are more about using high level tokens used to show that how the page should look like***
+
+## Semantic HTML
+- In programming Semantic refers to the meaning of the code. It tells that what is the purpose of this piece of code 
+    -  Eg. `<h1>` tag is used to write the main heading of the webpage
+	So the data written within this tag then it is understood that it is the main title.
+- But in case of `<div>`, it is used wrap flow content. It has no effect on the content. It is a **non-semantic** tag.
