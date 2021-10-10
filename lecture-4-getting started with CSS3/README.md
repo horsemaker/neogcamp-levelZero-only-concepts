@@ -225,14 +225,14 @@ display: grid;
 ><h3>How are CSS variables defined?</h3>
 custom properties should be defined on the <a href=”https://developer.mozilla.org/en-US/docs/Web/CSS/:root”>: root</a> pseudo-class so that it can be 
 applied across your HTML document.<br> <br/>
-<img src="images/root.png" style="width:400px;"/>
+<img src="images/root.png" style="width:300px;"/>
 
 ><h3>How to access CSS variables?</h3>
 
 You can access the value of the CSS variable by specifying the name of the variable 
 inside the var() function in place of a regular property value.
 
-<img src="images/accessroot.png" style="width:400px;"/>
+<img src="images/accessroot.png" style="width:350px;"/>
 <br></br>
 
 _Resource:_  https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
