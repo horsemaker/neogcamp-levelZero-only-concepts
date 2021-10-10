@@ -108,7 +108,7 @@ border: medium dashed green;
 
 ><h4>Color</h4>
 
-Property sets the color value of an element's text
+Sets the color value of an element's text
 <br>
 
 Syntax :
@@ -180,7 +180,7 @@ text-align: center;
 </pre>
 ><h4>margin</h4>
 
-sets the margin area on all four sides of an element.
+Sets the margin area on all four sides of an element.
 
 Syntax :
 <pre>
@@ -245,7 +245,7 @@ _Resource:_  https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_p
 Everything in CSS has a box around it. The CSS box model is all about MBPC i.e margin, border, padding, content.
 
 <img src="images/boxmodel.png" style="width:400px;"/>
-<br></br>
+<br>
 <h3>Understanding the parts of CSS box model:</h3>
 <br>
 
@@ -275,21 +275,17 @@ Frequently encountered css units are : Numbers, lengths and percentages.
 ><h3>Lengths</h3>
 There are two types of lengths used in CSS — relative and absolute
 
-- Absolute length units
+- Absolute length units: 
 They are not relative to anything else, and are generally considered to always be the same size.
 
 <img src="images/lengths.png" style="width:500px;"/>
 <br>
 
-<br/>
-
-- Relative length units
-Relative length units are relative to something else, perhaps the size of the parent element's font, or the size of the viewport. 
+- Relative length units: 
+They are relative to something else, perhaps the size of the parent element's font, or the size of the viewport. 
 
 
 <img src="images/relative_lengths.png" style="width:600px;"/>
-
-
 
 <p>&nbsp;</p>
 
@@ -298,6 +294,7 @@ Relative length units are relative to something else, perhaps the size of the pa
 
 - When you right-click on any web page, there is an inspect option
 <br>
+
 - It gives all the info about any element on the page., _(if we find anything really good and useful for our project work, we can just inspect and grab that piece of code)_
 
 - It also helps to debug the code.
@@ -310,7 +307,7 @@ Relative length units are relative to something else, perhaps the size of the pa
 <p>&nbsp;</p>
 
 # OVERRIDING CSS
-If a property is defined twice, the latest property is applied to the element
+If a property is defined twice, then the latest property is applied to the element
 
 Example :
 
