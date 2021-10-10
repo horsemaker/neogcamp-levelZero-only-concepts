@@ -268,7 +268,7 @@ Frequently encountered css units are : Numbers, lengths and percentages.
 
 ><h3>Numbers</h3>
 <br>
-<img src="images/numbers.png" style="width:400px;"/>
+<img src="images/numbers.png" style="width:500px;"/>
 <br>
 <br/>
 
@@ -278,7 +278,7 @@ There are two types of lengths used in CSS — relative and absolute
 - Absolute length units
 They are not relative to anything else, and are generally considered to always be the same size.
 
-<img src="images/lengths.png" style="width:400px;"/>
+<img src="images/lengths.png" style="width:500px;"/>
 <br>
 
 <br/>
@@ -287,7 +287,7 @@ They are not relative to anything else, and are generally considered to always b
 Relative length units are relative to something else, perhaps the size of the parent element's font, or the size of the viewport. 
 
 
-<img src="images/relative_lengths.png" style="width:400px;"/>
+<img src="images/relative_lengths.png" style="width:600px;"/>
 
 
 
