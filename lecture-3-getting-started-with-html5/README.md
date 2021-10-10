@@ -36,7 +36,7 @@ In this document, along with the concepts, we will also address some keywords us
         It indicates the browser that the wrapped content is to be strongly emphasized, hence, changes the font-weight of the wrapped text to **bold**<br /><br />
     
     - `<i>` -- **i tag** <br />
-        It changes the font-weight of the wrapped text to **bold**<br /><br />
+        It changes the font-style of the wrapped text to *italics*<br /><br />
 
     - `<small>` -- **small tag** <br />
         It changes the font-size of the wrapped text to to a relatively smaller size<br /><br />
