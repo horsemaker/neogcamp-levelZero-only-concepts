@@ -9,7 +9,7 @@
 ><h3>CSS Syntax:</h3>
 
 <br>
-<img src="images/csssyntax.png" style="max-width:200px;"/>
+<img src="images/csssyntax.png" style="width:350px;"/>
 <br><br/>
 
 ><h3>Difference between CSS and CSS3</h3> 
@@ -78,48 +78,48 @@ There are many CSS properties but a few that are commonly used are:
 
 Sets the background color of an element
 <br></br>
-Syntax : background-color: red;
+Syntax :
+<pre>
+ background-color: red;
+ </pre>
 
 >Border
 
 It sets an element's border. It sets the values of border-width, border-style, and border-color.
 <br></br>
  Syntax :<br>
+ <pre>
 /* style */
-
 border: solid;
-<br></br>
 
 /* width | style */
-
 border: 2px dotted;
-<br></br>
 
 /* style | color */
-
 border: outset #f33;
-<br></br>
 
 /* width | style | color */
-
 border: medium dashed green;
-<br></br>
+</pre>
+
 
 >Color
 
 Property sets the color value of an element's text
 <br></br>
-Syntax :
 
+Syntax :
+<pre>
 color: red;
-<br></br>
+</pre>
 
 >Font
 
 Sets all the different properties of an element's font like font-style, font-weight, font-size, line-height font-family,etc
 <br></br>
-Syntax :
 
+Syntax :
+<pre>
 font-family: Georgia, serif;
 
 font-size: 1.2em;
@@ -129,48 +129,45 @@ font-style: italic;
 font-weight: bold;
 
 line-height: 2.5;
-
+</pre>
 >Padding
 
 Sets the padding area on all four sides of an element at once. An element's padding area is the space between its content and its border.
 <br></br>
+
 Syntax :
-
+<pre>
 /* Apply to all four sides */
-
 padding: 1em;
-<br></br>
- 
+
 /* vertical | horizontal */
-
 padding: 5% 10%;
-<br></br>
- 
-/* top | horizontal | bottom */
 
+/* top | horizontal | bottom */
 padding: 1em 2em 2em;
-<br></br>
  
 /* top | right | bottom | left */
-
 padding: 5px 1em 0 2em;
- <br></br>
+</pre>
+ 
 >text-decoration 
 
 Sets the appearance of decorative lines on text.
 <br></br>
-Syntax :
 
+Syntax :
+<pre>
 text-decoration: underline;
 
 text-decoration: underline dotted;
-
+</pre>
 >text-align
 
 Sets the horizontal alignment of the content inside a block element or table-cell box
 <br></br>
-Syntax :
 
+Syntax :
+<pre>
 text-align: start;
 
 text-align: end;
@@ -180,36 +177,33 @@ text-align: left;
 text-align: right;
 
 text-align: center;
-
+</pre>
 >margin
 
 sets the margin area on all four sides of an element.
 <br></br>
+
 Syntax :
-
+<pre>
 /* Apply to all four sides */
-
 margin: 1em;
-<br></br>
 
 /* vertical | horizontal */
-
 margin: 5% auto;
-<br></br> 
+
 /* top | horizontal | bottom */
-
 margin: 1em auto 2em;
- <br></br>
-/* top | right | bottom | left */
 
+/* top | right | bottom | left */
 margin: 2px 1em 0 auto;
- <br></br>
+ </pre>
 >display
 
 Sets whether an element is treated as a block or inline element and the layout used for its children, such as flow layout, grid or flex.
 <br></br>
-Syntax :
 
+Syntax :
+<pre>
 display: block;
 
 display: inline;
@@ -221,7 +215,7 @@ display: flex;
 display: inline-flex;
 
 display: grid;
-
+</pre>
 
 <p>&nbsp;</p>
 
@@ -253,9 +247,9 @@ _Resource:_  https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_p
 Everything in CSS has a box around it. The CSS box model is all about MBPC i.e margin, border, padding, content.
 
 <img src="images/boxmodel.png" style="max-width:400px;"/>
-
-Understanding the parts of CSS box model :
 <br></br>
+<h3>Understanding the parts of CSS box model:</h3>
+<br>
 
 ><h3>Margin</h3>
 -  Margin is the outermost section that wraps the content, padding and border. margin is defined using margin and related properties.
@@ -322,15 +316,17 @@ If a property is defined twice, the latest property is applied to the element
 
 Example :
 
-element {<br>
-    margin:auto; <br>
+<pre>
+element {
+    margin:auto;
 }
 
-overriding margin property of the element 
+/*overriding margin property of the element*/ 
 
-element {<br>
-    margin-left: 10%; <br>
+element {
+    margin-left: 10%; 
 }
+</pre>
 
 
 
