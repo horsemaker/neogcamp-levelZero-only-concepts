@@ -223,7 +223,7 @@ display: grid;
 - CSS variable names are case sensitive
 
 ><h3>How are CSS variables defined?</h3>
-custom properties should be defined on the <a href=”https://developer.mozilla.org/en-US/docs/Web/CSS/:root”>: root</a> pseudo-class so that it can be 
+custom properties should be defined on the <a href=”https://developer.mozilla.org/en-US/docs/Web/CSS/:root”> : root </a> pseudo-class so that it can be 
 applied across your HTML document.<br> <br/>
 <img src="images/root.png" style="width:300px;"/>
 
@@ -293,7 +293,6 @@ They are relative to something else, perhaps the size of the parent element's fo
 ><h3>Where is the inspect and what is it for?</h3>
 
 - When you right-click on any web page, there is an inspect option
-<br>
 
 - It gives all the info about any element on the page., _(if we find anything really good and useful for our project work, we can just inspect and grab that piece of code)_
 
