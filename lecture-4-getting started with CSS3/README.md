@@ -15,7 +15,7 @@
 ><h3>Difference between CSS and CSS3</h3> 
 
 <br>
-<img src="images/cssVscss3.png" style="width:400px;" alt="Difference between CSS and CSS3"/>
+<img src="images/cssVscss3.png" style="width:500px;" alt="Difference between CSS and CSS3"/>
 
 <p>&nbsp;</p>
 
@@ -24,21 +24,21 @@
 
 - Make a separate  .css file and then link it to the html file.
 
-<img src="images/external.png" style="width:400px;"/>
+<img src="images/external.png" style="width:350px;"/>
 <br><br/>
 
 ><h3>Internal css</h3>
 
 - Inside the head tag of the html file, create a style tag and write down the css properties and put an end tag of style.
 
-<img src="images/internal.png" style="width:400px;"/>
+<img src="images/internal.png" style="width:350px;"/>
 
 ><h3>Inline css</h3>
 
 - Inside a tag to which the property has to be applied.
 
 
-<img src="images/inline.png" style="width:400px;"/>
+<img src="images/inline.png" style="width:350px;"/>
 <br><br/>
 
 ><h3>WHICH WAY IS THE IDEAL ONE?</h3>
@@ -55,7 +55,7 @@ External css is the best practice to be followed, as it makes changing and acces
 4. Pseudo-elements selectors (select and style a part of an element)
 5. Attribute selectors (select elements based on an attribute or attribute value)
  
- <img src="images/selectors.png" style="width:400px;">
+ <img src="images/selectors.png" style="width:600px;">
  
 - Group selector:
 To group selectors, separate each selector with a comma.
@@ -74,20 +74,23 @@ _Resource:_ https://www.w3schools.com/css/css_selectors.asp
 # PROPERTIES IN CSS
 There are many CSS properties but a few that are commonly used are:
 
-><h3>Background-color</h3>
+><h4>Background-color</h4>
 
 Sets the background color of an element
 <br>
+
 Syntax :
 <pre>
  background-color: red;
  </pre>
 
->Border
+><h4>Border</h4>
 
 It sets an element's border. It sets the values of border-width, border-style, and border-color.
-<br></br>
- Syntax :<br>
+<br>
+
+
+ Syntax :
  <pre>
 /* style */
 border: solid;
@@ -103,20 +106,20 @@ border: medium dashed green;
 </pre>
 
 
->Color
+><h4>Color</h4>
 
 Property sets the color value of an element's text
-<br></br>
+<br>
 
 Syntax :
 <pre>
 color: red;
 </pre>
 
->Font
+><h4>Font</h4>
 
 Sets all the different properties of an element's font like font-style, font-weight, font-size, line-height font-family,etc
-<br></br>
+<br>
 
 Syntax :
 <pre>
@@ -130,10 +133,9 @@ font-weight: bold;
 
 line-height: 2.5;
 </pre>
->Padding
+><h4>Padding</h4>
 
 Sets the padding area on all four sides of an element at once. An element's padding area is the space between its content and its border.
-<br></br>
 
 Syntax :
 <pre>
@@ -150,10 +152,9 @@ padding: 1em 2em 2em;
 padding: 5px 1em 0 2em;
 </pre>
  
->text-decoration 
+><h4>text-decoration </h4>
 
 Sets the appearance of decorative lines on text.
-<br></br>
 
 Syntax :
 <pre>
@@ -161,10 +162,9 @@ text-decoration: underline;
 
 text-decoration: underline dotted;
 </pre>
->text-align
+><h4>text-align</h4>
 
 Sets the horizontal alignment of the content inside a block element or table-cell box
-<br></br>
 
 Syntax :
 <pre>
@@ -178,10 +178,9 @@ text-align: right;
 
 text-align: center;
 </pre>
->margin
+><h4>margin</h4>
 
 sets the margin area on all four sides of an element.
-<br></br>
 
 Syntax :
 <pre>
@@ -197,10 +196,9 @@ margin: 1em auto 2em;
 /* top | right | bottom | left */
 margin: 2px 1em 0 auto;
  </pre>
->display
+><h4>display</h4>
 
 Sets whether an element is treated as a block or inline element and the layout used for its children, such as flow layout, grid or flex.
-<br></br>
 
 Syntax :
 <pre>
