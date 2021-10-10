@@ -244,7 +244,7 @@ _Resource:_  https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_p
 # CSS BOX MODEL
 Everything in CSS has a box around it. The CSS box model is all about MBPC i.e margin, border, padding, content.
 
-<img src="images/boxmodel.png" style="width:400px;"/>
+<img src="images/boxmodel.png" style="width:500px;"/>
 <br>
 <h3>Understanding the parts of CSS box model:</h3>
 <br>
