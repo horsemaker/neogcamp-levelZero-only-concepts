@@ -15,7 +15,7 @@
 ><h3>Difference between CSS and CSS3</h3> 
 
 <br>
-<img src="images/cssVscss3.png" style="max-width:400px;" alt="Difference between CSS and CSS3"/>
+<img src="images/cssVscss3.png" style="width:400px;" alt="Difference between CSS and CSS3"/>
 
 <p>&nbsp;</p>
 
@@ -24,21 +24,21 @@
 
 - Make a separate  .css file and then link it to the html file.
 
-<img src="images/external.png" style="max-width:400px;"/>
+<img src="images/external.png" style="width:400px;"/>
 <br><br/>
 
 ><h3>Internal css</h3>
 
 - Inside the head tag of the html file, create a style tag and write down the css properties and put an end tag of style.
 
-<img src="images/internal.png" style="max-width:400px;"/>
+<img src="images/internal.png" style="width:400px;"/>
 
 ><h3>Inline css</h3>
 
 - Inside a tag to which the property has to be applied.
 
 
-<img src="images/inline.png" style="max-width:400px;"/>
+<img src="images/inline.png" style="width:400px;"/>
 <br><br/>
 
 ><h3>WHICH WAY IS THE IDEAL ONE?</h3>
@@ -55,7 +55,7 @@ External css is the best practice to be followed, as it makes changing and acces
 4. Pseudo-elements selectors (select and style a part of an element)
 5. Attribute selectors (select elements based on an attribute or attribute value)
  
- <img src="images/selectors.png" style="max-width:400px;">
+ <img src="images/selectors.png" style="width:400px;">
  
 - Group selector:
 To group selectors, separate each selector with a comma.
@@ -74,10 +74,10 @@ _Resource:_ https://www.w3schools.com/css/css_selectors.asp
 # PROPERTIES IN CSS
 There are many CSS properties but a few that are commonly used are:
 
->Background-color
+><h3>Background-color</h3>
 
 Sets the background color of an element
-<br></br>
+<br>
 Syntax :
 <pre>
  background-color: red;
@@ -227,14 +227,14 @@ display: grid;
 ><h3>How are CSS variables defined?</h3>
 custom properties should be defined on the <a href=”https://developer.mozilla.org/en-US/docs/Web/CSS/:root”>: root</a> pseudo-class so that it can be 
 applied across your HTML document.<br> <br/>
-<img src="images/root.png" style="max-width:400px;"/>
+<img src="images/root.png" style="width:400px;"/>
 
 ><h3>How to access CSS variables?</h3>
 
 You can access the value of the CSS variable by specifying the name of the variable 
 inside the var() function in place of a regular property value.
 
-<img src="images/accessroot.png" style="max-width:400px;"/>
+<img src="images/accessroot.png" style="width:400px;"/>
 <br></br>
 
 _Resource:_  https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
@@ -246,7 +246,7 @@ _Resource:_  https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_p
 # CSS BOX MODEL
 Everything in CSS has a box around it. The CSS box model is all about MBPC i.e margin, border, padding, content.
 
-<img src="images/boxmodel.png" style="max-width:400px;"/>
+<img src="images/boxmodel.png" style="width:400px;"/>
 <br></br>
 <h3>Understanding the parts of CSS box model:</h3>
 <br>
@@ -270,7 +270,7 @@ Frequently encountered css units are : Numbers, lengths and percentages.
 
 ><h3>Numbers</h3>
 <br>
-<img src="images/numbers.png" style="max-width:400px;"/>
+<img src="images/numbers.png" style="width:400px;"/>
 <br>
 <br/>
 
@@ -280,7 +280,7 @@ There are two types of lengths used in CSS — relative and absolute
 - Absolute length units
 They are not relative to anything else, and are generally considered to always be the same size.
 
-<img src="images/lengths.png" style="max-width:400px;"/>
+<img src="images/lengths.png" style="width:400px;"/>
 <br>
 
 <br/>
@@ -289,7 +289,7 @@ They are not relative to anything else, and are generally considered to always b
 Relative length units are relative to something else, perhaps the size of the parent element's font, or the size of the viewport. 
 
 
-<img src="images/relative_lengths.png" style="max-width:400px;"/>
+<img src="images/relative_lengths.png" style="width:400px;"/>
 
 
 
