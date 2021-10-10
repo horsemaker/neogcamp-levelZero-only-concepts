@@ -41,7 +41,7 @@ In this document, along with the concepts, we will also address some keywords us
     - `<small>` -- **small tag** <br />
         It changes the font-size of the wrapped text to to a relatively smaller size<br /><br />
 
-        <img src="images/typography.png" style="width: 80%;">
+        <img src="images/typography.png" style="width: 60%;">
 
 
     
