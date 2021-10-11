@@ -41,8 +41,7 @@ In this document, along with the concepts, we will also address some keywords us
     - `<small>` -- **small tag** <br />
         It changes the font-size of the wrapped text to to a relatively smaller size<br /><br />
 
-        <img src="images/typography.png" style="width: 60%;">
-
+        <img src="images/typography.png" style="width: 45%;">
         
 ### Container
 - The Container is used for storing a group of inter-related content of the document which shares same background-color, font-color, font-size, font-family, etc.
@@ -59,16 +58,16 @@ In this document, along with the concepts, we will also address some keywords us
 ```
 - Two types of links: 
     - Primary link -> important link that we want user to click.
-    - Secondary link -> not so important link that user can click or not.<br/>
-    <img src="images/links.png" style="width: 60%;">
+    - Secondary link -> not so important link that user can click or not.<br /><br />
+    <img src="images/links.png">
 
 ### Inline Element Vs Block Element
 - In Html, we basically lay bricks .i.e. we write the code in sequential manner.
 - <code>Block Element</code> - The element/tag which occupies whole row is called as block element.
     - Example: ` <h1>,<p> `
 - <code>Inline Element</code> - The element/tag which occupies only the space required by the content is called as an inline element.
-    - Example: ` <small>,<span> `<br/>
-    <img src="images/inline-vs-block.png" style="width: 60%;">
+    - Example: ` <small>,<span> `<br/><br />
+    <img src="images/inline-vs-block.png" >
     
 ### Lists 
 - HTML Lists are used to specify lists of information. All lists may contain one or more list elements.
@@ -127,7 +126,7 @@ In this document, along with the concepts, we will also address some keywords us
 - `Section` can have heading, paragraph, article , or anything.
 - Example:
     - `White section` -> a section that have a white background color.
-    - `Off-white section` -> a section that have a gray background color.
+    - `Off-white section` -> a section that have a gray background color.<br /><br />
     <img src="images/section.png">
 
 ### Footer
@@ -146,3 +145,8 @@ In this document, along with the concepts, we will also address some keywords us
 - The source to be specified in image tag can be an absoulte URL or a relative URL.
     - `Absoulte URL` -> These links us to an external image that is hosted on another website.
     - `Relative URL` -> These links us to an image that is hosted within the website.
+## Resources
+- [HTML | HyperText Markup Language](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [Semantic HTML](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html)
+- [What's in the head? Metadata in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
+- [`<body>` tag in the document](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body)
