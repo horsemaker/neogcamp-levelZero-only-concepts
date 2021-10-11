@@ -43,6 +43,64 @@ In this document, along with the concepts, we will also address some keywords us
 
         <img src="images/typography.png" style="width: 60%;">
 
+        
+### Container
+- The Container is used for storing a group of inter-related content of the document which shares same background-color, font-color, font-size, font-family, etc.
+- Container is a space which don’t have a meaning
 
+    <img src="images/container.png">
+
+
+### Links
+- Anything that connects us to different page is link and web browser has many links.
+- We use anchor tag and href attribute for specifying link <br/>
+```
+<a href="/">primary link</a> 
+```
+- Two types of links: 
+    - Primary link -> important link that we want user to click.
+    - Secondary link -> not so important link that user can click or not.
+
+    <img src="images/links.png" style="width: 60%;">
+
+### Inline Element Vs Block Element
+- In Html, we basically lay bricks .i.e. we write the code in sequential manner.
+- <code>Block Element</code> - The element/tag which occupies whole row is called as block element.
+    - Example: ` <h1>,<p> `
+- <code>Inline Element</code> - The element/tag which occupies only the space required by the content is called as an inline element.
+    - Example: ` <small>,<span> `<br/>
+    <img src="images/inline-vs-block.png" style="width: 60%;">
     
-    
+### Lists 
+- HTML Lists are used to specify lists of information. All lists may contain one or more list elements.
+- There are three different types of HTML lists.
+    1. unordered list <br />
+    The `<ul>` tag defines an unordered (bulleted) list.  
+        ```
+        <ul>
+            <li> Item One</li>
+            <li> Item Two</li>
+            <li> Item Three</li>
+        </ul>
+        ```
+       <img src="images/list-unordered.png"> 
+    2. unordered inline <br />
+    The `display` style of the unordered list items is changed to inline
+        ```
+        <ul style="display: inline;">
+            <li> Inline Item One</li>
+            <li> Inline Item Two</li>
+            <li> Inline Item Three</li>
+        </ul>
+        ``` 
+       <img src="images/list-unordered-inline.png"> 
+    3. reverse ordered <br />
+    The list is an ordered list but displayed in a reverse manner by adding the attribute `reversed`
+        ```
+        <ol reversed>
+            <li> Item One</li>
+            <li> Item Two</li>
+            <li> Item Three</li>
+        </ol>
+        ``` 
+       <img src="images/list-reversed-order.png"> 
