@@ -1,4 +1,5 @@
-<p style= "font-size:2.5rem;">Introduction to ReactJS library</p>
+<p style="font-size:2.5rem;">Introduction to ReactJS library </p> 
+
 
 # What is react?
 
@@ -72,7 +73,7 @@ It triggers a function with a click.
 Example:
 
 <pre>
-<img src="images/onclick.png" style="width:450px;">
+<img src="images/onclick.png" style="width:300px;">
 Here, once the user clicks on the button, then function ‘activateLasers’ is called
 </pre>
 
