@@ -2,18 +2,18 @@
 
 # What is react?
 
-<h3>A JavaScript library for building user interfaces</h3>
+<h3>React is a JavaScript library for building user interfaces.</h3>
 <p>&nbsp;</p>
 
 > <h3>What is declarative?</h3>
 
 - _Instead of telling how to do, just say what to do and it’ll be done._
-- In react the DOM is declarative. This means we never interact with DOM, the UI is updated when we change the state.
+- In react, the DOM is declarative. This means we never interact with DOM, the UI is updated when we change the state.
 - This makes it easier to design UI and debug them, You can just change the program's state and see how the UI will look at that particular time.
   <br></br>
 
 > <h3>Difference between imperative and declarative</h3>
-> <br>
+<br>
 
 <img src="images/impvsdec.png" style="width:500px;"/>
 
@@ -59,14 +59,15 @@ React can also render on the server using Node and power mobile apps using <a hr
 
 EXAMPLE :
 
-<img src="images/jsx.png" style="width:400px; height:100px">
+<img src="images/jsx.png" style="width:500px; height:110px">
  
  <p>&nbsp;</p>
 
 # Event Listeners
 
 > <h3>onClick</h3>
-> It triggers a function with a click.
+
+It triggers a function with a click.
 
 Example:
 
@@ -75,8 +76,9 @@ Example:
 Here, once the user clicks on the button, then function ‘activateLasers’ is called
 </pre>
 
-> <h3>onChange:</pre>
-> If there is a change in the input, then a funtion is triggered.
+> <h3>onChange</pre>
+
+If there is a change in the input, then a funtion is triggered.
 
 <pre>
 <img src="images/onchange.png" style="width:450px;">
@@ -85,9 +87,9 @@ Here, if there is a change in the input field, then the function ‘handleChange
 
 <p>&nbsp;</p>
 
-# Call back functions
+# Callback functions
 
-A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action.
+A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to perform the given instructions.
 
 Example:
 
@@ -118,7 +120,7 @@ processUserInput(greeting);
 
 <p>&nbsp;</p>
 
-# VISER
+# V I S E R
 V --> View
 
 I --> Interact
@@ -128,6 +130,7 @@ SE --> State in Event handler
 R --> Render
 
 <img src="images/viser.png"/>
+<br>
 In the above example, our view is the div in which HTML is present. 
 we interact with the view using onClick then we update the state in event handler, and then we render the current state value on HTML. 
 <p>&nbsp;</p>
@@ -142,7 +145,7 @@ Syntax:
 Object.keys(obj)
 </pre>
 
-Eg:
+Example:
 
 <pre>
 // simple array
@@ -185,14 +188,15 @@ const flowers = [rose, jasmine, sunflower];
 
 # Warning: Each child in a list should have a unique **key** prop</h3>
 
-<img src="images/keyprop.png"/>
+<img src="images/keyprop.png" style="width:400px;" />
 <br></br>
 
 > <h3>Why does React need this key prop? 🔑</h3>
 
 - Keys help React identify which items have changed, are added, or are removed.
-- Keys should be given to the elements inside the array to give the elements a stable identity.
+- Keys should be given to the elements inside the array to give the elements a stable identity.<br>
 
+<img src="images/keypropsoln.png" style="width:400px;"/><br>
 _Resource:_
 https://medium.com/swlh/understanding-the-importance-of-the-key-prop-in-react-f2b92ce65f45
 
@@ -203,7 +207,8 @@ https://medium.com/swlh/understanding-the-importance-of-the-key-prop-in-react-f2
 - map() does not execute the function for empty elements.
 - map() does not change the original array.
   <br></br>
-  <img src="images/map.png" style="width:500px;"/>
+
+<img src="images/map.png" style="width:500px;"/>
 
 <p>&nbsp;</p>
 
@@ -228,22 +233,22 @@ hello = () => {
 }
 </pre>
 
-- It gets shorter! If the function has only one statement, and the statement returns a value, you can remove the brackets and the return keyword:
+It gets shorter! If the function has only one statement, and the statement returns a value, you can remove the brackets and the return keyword:
 
-- Eg:
+Example:
 <pre>
 hello = () => "Hello World!";
 </pre>
 
 If you have parameters, you pass them inside the parentheses:
-Eg:
+Example:
 
 <pre>
 hello = (val) => "Hello " + val;
 </pre>
 
 In fact, if you have only one parameter, you can skip the parentheses as well:
-Eg:
+Example:
 
 <pre>
 hello = val => "Hello " + val;
