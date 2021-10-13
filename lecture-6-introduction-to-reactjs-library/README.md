@@ -1,4 +1,4 @@
-<p style= "font-size:2.5rem">Introduction to ReactJS library<p>
+<p style= "font-size:2.5rem;">Introduction to ReactJS library</p>
 
 # What is react?
 
@@ -59,7 +59,7 @@ React can also render on the server using Node and power mobile apps using <a hr
 
 EXAMPLE :
 
-<img src="images/jsx.png" style="width:500px; height:110px">
+<img src="images/jsx.png" style="width:700px; height:130px">
  
  <p>&nbsp;</p>
 
@@ -115,8 +115,8 @@ processUserInput(greeting);
 - useState() returns an array. The first parameter in the array is the current state value. The second parameter is the function that will allow you to update the state value.
 - It accepts an argument which is the initial value of the first parameter.
 
-  Example:
-  <img src="images/useState.png"/>
+  Example:<br>
+  <img src="images/useState.png" style="width:400px;"/>
 
 <p>&nbsp;</p>
 
@@ -129,7 +129,7 @@ SE --> State in Event handler
 
 R --> Render
 
-<img src="images/viser.png"/>
+<img src="images/viser.png" style="width:450px;"/>
 <br>
 In the above example, our view is the div in which HTML is present. 
 we interact with the view using onClick then we update the state in event handler, and then we render the current state value on HTML. 
@@ -259,9 +259,6 @@ hello = val => "Hello " + val;
 # Know more:
 
 <a href="https://reactjs.org/">ReactJs</a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys">OBject.keys()</a>
-<a>
 
-https://reactjs.org/docs/components-and-props.html
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys">Object.keys()</a>
 
-https://reactjs.org/docs/hooks-state.html
