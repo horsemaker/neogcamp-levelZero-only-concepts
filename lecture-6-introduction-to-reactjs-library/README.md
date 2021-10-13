@@ -6,7 +6,7 @@
 <h3>React is a JavaScript library for building user interfaces.</h3>
 <p>&nbsp;</p>
 
-> <h3>What is declarative?</h3>
+> <h3>React is declarative</h3>
 
 - _Instead of telling how to do, just say what to do and it’ll be done._
 - In react, the DOM is declarative. This means we never interact with DOM, the UI is updated when we change the state.
@@ -23,14 +23,14 @@ https://www.geeksforgeeks.org/difference-between-imperative-and-declarative-prog
 
 <br>
 
-> <h3>What is component-based?</h3>
+> <h3>React is component-based</h3>
 
 - Components are one of the basic building blocks of React, and they represent classes or functions that accept input and render the various HTML elements
 - Components are in purpose as JavaScript functions, but work in isolation and return HTML.
 
 <br>
 
-> <h3>What does it mean by is learn once, write anywhere?</h3>
+> <h3>Learn once, write anywhere with React</h3>
 
 - One can develop new features in React without rewriting existing code.
 React can also render on the server using Node and power mobile apps using <a href="https://reactnative.dev/">React Native</a>.
