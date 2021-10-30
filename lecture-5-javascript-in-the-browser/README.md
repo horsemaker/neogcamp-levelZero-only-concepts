@@ -137,7 +137,7 @@ The following is a snippet from a HTML file.<br />
 - Fetch allows you to make an HTTP request with a straightforward interface by using promises.
 - It is used to call api in JS.
 - By default we receive the response in the string format, we need to parse into JSON.<br/>
-<img src="images/api.PNG">
+<img src="images/api.PNG" width="60%">
 
 - The `fetch` calls the api and gets the response and first `then` only converts response to json format and second `then` is used to console the responses.
 
@@ -148,7 +148,7 @@ The following is a snippet from a HTML file.<br />
 ### encodeURI()
 - The encodeURI() function encodes a URI by replacing each instance of certain characters by one, two, three, or four escape sequences representing the UTF-8 encoding of the character (will only be four escape sequences for characters composed of two "surrogate" characters).
 - URLs are designed to accept only certain characters in the standard 128-character ASCII character set. Reserved or unsafe ASCII characters which are not being used for their intended purpose, as well as characters not in this set, have to be encoded. URL encoding serves the purpose of replacing these non-conforming characters with a % symbol followed by two hexadecimal digits that represent the ASCII code of the character.<br/>
-<img src="images/uri.png">
+<img src="images/uri.png" width="60%">
 
 ### To handle errors : Use .catch()
 - It takes a callback and error is passed to as an  argument to the callback.
