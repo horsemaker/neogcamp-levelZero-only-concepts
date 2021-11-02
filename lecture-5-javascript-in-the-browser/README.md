@@ -74,7 +74,7 @@ The following is a snippet from a HTML file.<br />
 - textContent returns the text content of all elements, while innerText returns the content of all elements, except for `<script>` and `<style>` elements.
 - textContent will return the text of elements that are hidden with CSS.<br />
 <img src="images/textContent-alert.PNG">
-<img src="images/textContent-console.PNG" width="220%">
+<img src="images/innerText-console.PNG" width="220%">
 <img src="images/textContent-doc.PNG">
 
 ### innerHTML
@@ -83,7 +83,7 @@ The following is a snippet from a HTML file.<br />
 - innerHTML is used to print content between labels, including text information. Cross site security attacks are the main disadvantage of innerHTML.
 - It retrieves and sets the same content in HTML format.<br />
 <img src="images/innerText-alert.PNG">
-<img src="images/innerText-console.PNG" width="220%">
+<img src="images/textContent-console.PNG" width="220%">
 <img src="images/innerText-doc.PNG"> <br />
 
 - Alternative to create an element
