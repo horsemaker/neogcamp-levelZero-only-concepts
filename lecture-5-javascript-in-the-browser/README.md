@@ -55,36 +55,49 @@
 ## DOM manipulation:
 - When writing web pages and apps, one of the most common things you'll want to do is manipulate the document structure in some way. This is usually done by using the Document Object Model (DOM), a set of APIs for controlling HTML and styling information that makes heavy use of the Document object. Read more about [DOM manipulation](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents)
 
-Let's take an example to understand the difference between innerText, innerHTML and textContent.<br />
-The following is a snippet from a HTML file.<br />
-  <img src="images/p-tag.PNG"><br />
+- Difference between innerText, innerHTML and textContent.
+Consider the following code snippet:
+<img src="images/demo-p.png">
+Now, let's perform the following actions:
+<img src="images/console-p.png">
+The results are:
+  - console.log(demoP.innerText)
+  <img src="images/console-innerText.png">
+  - console.log(demoP.textContent)
+  <img src="images/console-textContent.png">
+  - console.log(demoP.innerHTML)
+  <img src="images/console-innerHTML.png">
 
-### InnerText
+<!-- Let's take an example to understand the difference between innerText, innerHTML and textContent.<br /> -->
+<!-- The following is a snippet from a HTML file.<br /> -->
+  <!-- <img src="images/p-tag.PNG"><br /> -->
+
+<!-- ### InnerText
 - This property is used to write or retrieve the dynamic text on the HTML document
 - If we try to modify the `<style>` of a certain element or wrap within any appropriate HTML elements dynamically using innerText (in JS file), the desired dynamic modifications will not be applied.
 - It will read those changes as plain text and output them exactly as they are.
-- However, if the text content is retrieved from an HTML file, its appearance is also retrieved, which means while we retrieve the text, it will be carrying the style applied as default. <br />
-<img src="images/innerText-alert.PNG">
-<img src="images/innerText-console.PNG" width="220%">
-<img src="images/innerText-doc.PNG">
-- *Note: innerText is easily confused with Node.textContent, but there are important differences between the two. Basically, innerText is aware of the retrieved appearance of text, while textContent is not.*
+- However, if the text content is retrieved from an HTML file, its appearance is also retrieved, which means while we retrieve the text, it will be carrying the style applied as default. <br /> -->
+<!-- <img src="images/innerText-alert.PNG"> -->
+<!-- <img src="images/innerText-console.PNG" width="220%"> -->
+<!-- <img src="images/innerText-doc.PNG"> -->
+<!-- - *Note: innerText is easily confused with Node.textContent, but there are important differences between the two. Basically, innerText is aware of the retrieved appearance of text, while textContent is not.* -->
 
-### textContent
+<!-- ### textContent
 - The textContent property sets or returns the text content of the specified node, and all its descendants, similar to innerText.
 - textContent returns the text content of all elements, while innerText returns the content of all elements, except for `<script>` and `<style>` elements.
-- textContent will return the text of elements that are hidden with CSS.<br />
-<img src="images/textContent-alert.PNG">
-<img src="images/innerText-console.PNG" width="220%">
-<img src="images/textContent-doc.PNG">
+- textContent will return the text of elements that are hidden with CSS.<br /> -->
+<!-- <img src="images/textContent-alert.PNG"> -->
+<!-- <img src="images/innerText-console.PNG" width="220%"> -->
+<!-- <img src="images/textContent-doc.PNG"> -->
 
-### innerHTML
+<!-- ### innerHTML
 - The JavaScript innerHTML property sets the HTML contents of an element on a web page.
 - It reads the HTML tags and applies the `<style>` mentioned in the dynamic text.
 - innerHTML is used to print content between labels, including text information. Cross site security attacks are the main disadvantage of innerHTML.
-- It retrieves and sets the same content in HTML format.<br />
-<img src="images/innerText-alert.PNG">
-<img src="images/textContent-console.PNG" width="220%">
-<img src="images/innerText-doc.PNG"> <br />
+- It retrieves and sets the same content in HTML format.<br /> -->
+<!-- <img src="images/innerText-alert.PNG"> -->
+<!-- <img src="images/textContent-console.PNG" width="220%"> -->
+<!-- <img src="images/innerText-doc.PNG"> <br /> -->
 
 - Alternative to create an element
   - Elements have two parts
