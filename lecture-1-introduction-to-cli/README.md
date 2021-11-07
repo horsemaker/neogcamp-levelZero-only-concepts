@@ -1,12 +1,12 @@
 # Introduction to CLI
 ### What is **CLI** ?<br />
 - CLI stands for **Command Line Interface**<br />
-- **Command Line Interface** is a text-based interface which processes the commands of a computer program in the form of lines of text to   perform functions and responds back in the same way.
+- **Command Line Interface** is a text-based interface that processes the commands of a computer program in the form of lines of text to perform functions and responds in the same way.
 
 ## Concept no 1: JavaScript and NodeJS
 ### JavaScript 
-- A text-based programming language which executes on a browser, allows to make webpages interactive.
-JavaScript is a programming language, which runs in browser.
+- A text-based programming language which executes on a browser, allows making webpages interactive.
+JavaScript is a programming language, which runs in the browser.
 ### NodeJS
 - Node.js is an interpreter or running environment for JavaScript
 
@@ -60,7 +60,7 @@ In NodeJS/ CLI we need something to get the input, for that purpose we use [<cod
 
    - After installing required packages, the readlineSync will get added as a <code>dependency</code>.
    - What do we mean by a <code>dependency</code>?<br/>
-   A dependency in programming is an essential functionality, library or piece of code that's essential for a different part of the code to work. For example, a specific library that a given line of code depends on.
+   A dependency in programming is an essential functionality, library, or piece of code that's essential for a different part of the code to work. For example, a specific library that a given line of code depends on.
    
    - How to declare <code>readlineSync</code>?<br/>
    Syntax : <pre>var readlineSync = require(“readline-sync”);
@@ -76,7 +76,7 @@ In NodeJS/ CLI we need something to get the input, for that purpose we use [<cod
 ## Basic concepts     
 ### 1. Variable
 - What is a <code>variable</code>?<br />
-It is a placeholder in computer memory, where we store a certain value which we will access in future via a reference name.
+It is a placeholder in computer memory, where we store a certain value that we will access in the future via a reference name.
   - There are different types of variables :
      - String
      - Number
@@ -87,11 +87,11 @@ It is a placeholder in computer memory, where we store a certain value which we 
     <pre>var userName = "user"; </pre>
 -  When to use var, let, and const?
     1. <code>var</code> <br />
-    It can be global/functional scoped and it is used for variables which need to be re-declared and updated.
+    It can be global/functional scoped and it is used for variables that need to be re-declared and updated.
     2. <code>let</code> <br />
-    It is block scoped and can be updated but not re-declared.
+    It is block-scoped and can be updated but not re-declared.
     3. <code>const</code> <br /> 
-    It is also block scoped but it can't be updated or redeclared.
+    It is also block-scoped but it can't be updated or redeclared.
 ### CamelCase
 -  Camelcase is used preferably as naming convention in Javascript.
 - Example: <code>userName, getPrice, etc.</code>
@@ -99,7 +99,7 @@ It is a placeholder in computer memory, where we store a certain value which we 
 ### String 
 - String can be any text written inside double or single quotes.
 - <code>String Concatenation</code>
-    - Adding two strings or merging of two strings, using addition sign “ + ” is called as string concatenation. 
+    - Adding two strings or merging two strings, using the addition sign “ + ” is called string concatenation. 
 
 ### 2. Data Structures
 A **Data Structure** is a particular way of organizing data in a computer and **Array** is the simplest data structure where each data element can be randomly accessed by using its index number.
@@ -138,8 +138,8 @@ A **Data Structure** is a particular way of organizing data in a computer and **
         }</pre>
 
 ### Functions
-   - <code>Function</code> is a set of statements which can be  used repetitively in one single program just by calling it by its reference name and passing arguments in it.<br/>
-   - Function is basically a repeating peice of processing unit.<br/>
+   - <code>Function</code> is a set of statements that can be used repetitively in one single program just by calling it by its reference name and passing arguments in it.<br/>
+   - Function is a repeating piece of the processing unit.<br/>
    - Syntax:
    <pre>
     function functionName(parameterOne, parameterTwo) {
@@ -166,7 +166,7 @@ A **Data Structure** is a particular way of organizing data in a computer and **
 
 ## Styling     
 ### Chalk
-- [<code>Chalk</code>](https://www.npmjs.com/package/chalk) module in Node.js is the third-party module that is used for styling the format of text and allows us to create our own themes in the node.js project.
+- [<code>Chalk</code>](https://www.npmjs.com/package/chalk) module in Node.js is the third-party module that is used for styling the format of text and allows us to create our themes in the node.js project.
 - To use <code>chalk</code>,module we need to first install it by running the below command line:
 <pre> npm install chalk</pre>
 - How to use <code>chalk</code>?
