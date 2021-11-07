@@ -1,22 +1,22 @@
 # **Getting started with HTML5**
 In this document, along with the concepts, we will also address some keywords used in HTML.
 ## Introduction to HTML5
-### [**HTML**](https://developer.mozilla.org/en-US/docs/Web/HTML) stands for **HyperText Markup Language**. It allows the modification and adjustments of the appearance of  web pages. It is responsible for layout the structure of the web page.
+### [**HTML**](https://developer.mozilla.org/en-US/docs/Web/HTML) stands for **HyperText Markup Language**. It allows the modification and adjustments of the appearance of web pages. It is responsible for the layout the structure of the web page.
 
 - Here, **HyperText** means a text which contains links to other texts and **Markup Language** is a computer language that uses tags to define elements within a document.
 
-***HTML and CSS are not programming, they are more about using high level tokens used to show that how the page should look like***
+***HTML and CSS are not programming, they are more about using high-level tokens used to show that how the page should look like***
 
 ## Semantic HTML
 - In programming, **Semantic** refers to the *meaning* of the code. It tells that what is the purpose of this piece of code 
     -  Eg. `<h1>` tag is used to write the main heading of the webpage
-	So the data written within this tag then it is understood that it is the main title.
-- But in case of `<div>`, it is used wrap flow content. It has no effect on the content. It is a **non-Semantic** tag.
+	So the data are written within this tag then it is understood that it is the main title.
+- But in the case of `<div>`, it is used to wrap flow content. It does not affect the content. It is a **non-Semantic** tag.
 
 
 ## HTML **`<head>` tag** vs **`<body>` tag**
-- In `<head>` tag we mention the code which is not to be displayed on the web page. It includes information about the page, **metadata** (data about data) and how to process it. It is the first section of the HTML document
-- In `<body` tag we mention the contents which is to be displayed on the page, the **actual content**. It is the second section of the HTML document
+- In the `<head>` tag we mention the code which is not to be displayed on the web page. It includes information about the page, **metadata** (data about data), and how to process it. It is the first section of the HTML document
+- In the `<body` tag we mention the contents which are to be displayed on the page, the **actual content**. It is the second section of the HTML document
 
 ## Component Library
 - Component library is a set of reusable components.
@@ -27,7 +27,7 @@ In this document, along with the concepts, we will also address some keywords us
 
     - `<h1>` to `<h6>` -- **heading tags** <br />
         These tags are used to wrap headings according to their priorities.
-        - eg. The largest heading will be written within `<h1>` tag and the smallest heading will be written within `<h6>` tag<br /><br />
+        - eg. The largest heading will be written within the `<h1>` tag and the smallest heading will be written within `<h6>` tag<br /><br />
 
     - `<p>` -- **paragraph tag** <br />
         It defines a paragraph of text<br /><br />
@@ -39,19 +39,19 @@ In this document, along with the concepts, we will also address some keywords us
         It changes the font-style of the wrapped text to *italics*<br /><br />
 
     - `<small>` -- **small tag** <br />
-        It changes the font-size of the wrapped text to to a relatively smaller size<br /><br />
+        It changes the font size of the wrapped text to a relatively smaller size<br /><br />
 
         <img src="images/typography.png" style="width: 45%;">
         
 ### Container
-- The Container is used for storing a group of inter-related content of the document which shares same background-color, font-color, font-size, font-family, etc.
-- Container is a space which don’t have a meaning
+- The Container is used for storing a group of inter-related content of the document which shares the same background color, font color, font size, font family, etc.
+- Container is a space that doesn’t have a meaning
 
     <img src="images/container.png">
 
 
 ### Links
-- Anything that connects us to different page is link and web browser has many links.
+- Anything that connects us to a different page is a link and the web browser has many links.
 - We use anchor tag and href attribute for specifying link <br/>
 ```
 <a href="/">primary link</a> 
@@ -62,7 +62,7 @@ In this document, along with the concepts, we will also address some keywords us
     <img src="images/links.png">
 
 ### Inline Element Vs Block Element
-- In Html, we basically lay bricks .i.e. we write the code in sequential manner.
+- In Html, we lay bricks .i.e. we sequentially write the code.
 - <code>Block Element</code> - The element/tag which occupies whole row is called as block element.
     - Example: ` <h1>,<p> `
 - <code>Inline Element</code> - The element/tag which occupies only the space required by the content is called as an inline element.
@@ -104,18 +104,18 @@ In this document, along with the concepts, we will also address some keywords us
        <img src="images/list-reversed-order.png"> 
 
 ### Nav
-- It is a navigation component from where we can navigate to other pages of website.
-- We use `<nav>` tag to specify the browser that the links present in navigation are important
-- To add links in nav, we use `anchor tag`.
+- It is a navigation component from where we can navigate to other pages of a website.
+- We use the `<nav>` tag to specify the browser that the links present in navigation are important
+- To add links in the nav, we use `anchor tag`.
 <img src="images/navigation.png">
 
 ### Header
 - `Header` specifies the main heading/title of a web page.
-- It is also called as `Hero`.
+- It is also called a `Hero`.
 - Header has semantic component `<header> tag`
-- We can add an image in header.
-- For adding an image we use `<img> tag` and it is a self closing tag.
-- `src` is  the source attribute for specifying image link that we use in image tag.
+- We can add an image in the header.
+- For adding an image we use `<img> tag` and it is a self-closing tag.
+- `src` is the source attribute for specifying the image link that we use in the image tag.
 ```
 <img src="image.jpg" />
 ```
@@ -138,13 +138,13 @@ In this document, along with the concepts, we will also address some keywords us
 
 ## Tips & Tricks:
 ### For images
-- Use `.svg` image file for websites as it will be more efficient and will not be blurred when zoomed in.
+- Use the `.svg` image file for websites as it will be more efficient and will not be blurred when zoomed in.
 - Can use `.png` image file for blogs.
-- We can use any image from internet but should keep in mind about the **copyright issues**.
-- The images that will be used in your website should not contain any copyright issues.
-- The source to be specified in image tag can be an absoulte URL or a relative URL.
-    - `Absoulte URL` -> These links us to an external image that is hosted on another website.
-    - `Relative URL` -> These links us to an image that is hosted within the website.
+- We can use any image from the internet but should keep in mind the **copyright issues**.
+- The images that will be used on your website should not contain any copyright issues.
+- The source to be specified in the image tag can be an absolute URL or a relative URL.
+    - `Absolute URL` -> These link us to an external image that is hosted on another website.
+    - `Relative URL` -> These link us to an image that is hosted within the website.
 ## Resources
 - [HTML | HyperText Markup Language](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [Semantic HTML](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html)
