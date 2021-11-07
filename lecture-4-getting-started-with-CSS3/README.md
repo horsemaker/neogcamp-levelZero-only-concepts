@@ -2,7 +2,7 @@
 <p>&nbsp;</p>
 
 # ABOUT CSS3
-- Cascading style sheet is something that helps an html page look better and attractive, basically designing web pages.
+- Cascading style sheet is something that helps an HTML page look better and attractive, basically designing web pages.
 - It works in conjunction with HTML to provide a nice look, style, and structure to the program. 
 - The latest version of CSS is CSS3.
 <br></br>
@@ -22,14 +22,14 @@
 # WAYS TO INCLUDE CSS
 ><h3>External css</h3>
 
-- Make a separate  .css file and then link it to the html file.
+- Make a separate  .css file and then link it to the HTML file.
 
 <img src="images/external.png" style="width:350px;"/>
 <br><br/>
 
 ><h3>Internal css</h3>
 
-- Inside the head tag of the html file, create a style tag and write down the css properties and put an end tag of style.
+- Inside the head tag of the HTML file, create a style tag and write down the CSS properties and put an end tag of style.
 
 <img src="images/internal.png" style="width:350px;"/>
 
@@ -43,7 +43,7 @@
 
 ><h3>WHICH WAY IS THE IDEAL ONE?</h3>
 
-External css is the best practice to be followed, as it makes changing and accessing the css property easy and also allows reusability.
+External CSS is the best practice to be followed, as it makes changing and accessing the CSS property easy and also allows reusability.
 <p>&nbsp;</p>
 
 # SELECTORS IN CSS
@@ -86,7 +86,7 @@ Syntax :
 
 ><h4>Border</h4>
 
-It sets an element's border. It sets the values of border-width, border-style, and border-color.
+It sets an element's border. It sets the values of border width, border style, and border color.
 <br>
 
 
@@ -198,7 +198,7 @@ margin: 2px 1em 0 auto;
  </pre>
 ><h4>display</h4>
 
-Sets whether an element is treated as a block or inline element and the layout used for its children, such as flow layout, grid or flex.
+Sets whether an element is treated as a block or inline element and the layout used for its children, such as flow layout, grid, or flex.
 
 Syntax :
 <pre>
@@ -250,13 +250,13 @@ Everything in CSS has a box around it. The CSS box model is all about MBPC i.e m
 <br>
 
 ><h3>Margin</h3>
--  Margin is the outermost section that wraps the content, padding and border. margin is defined using margin and related properties.
+-  Margin is the outermost section that wraps the content, padding, and border. margin is defined using margin and related properties.
 
 ><h3>Content <h3>
 -  This is the area where the content or text gets displayed
 
 ><h3>Padding</h3>
-- It creates space around an element’s content. It’s size can be controlled using padding and related properties.
+- It creates space around an element’s content. Its size can be controlled using padding and related properties.
 
 ><h3>Border</h3>
 - A border that wraps the content and padding. It can be styled using the border property.
@@ -264,7 +264,7 @@ Everything in CSS has a box around it. The CSS box model is all about MBPC i.e m
 <p>&nbsp;</p>
 
 # CSS UNITS 
-Frequently encountered css units are : Numbers, lengths and percentages.
+Frequently encountered CSS units are Numbers, lengths, and percentages.
 
 ><h3>Numbers</h3>
 <br>
@@ -276,7 +276,7 @@ Frequently encountered css units are : Numbers, lengths and percentages.
 There are two types of lengths used in CSS — relative and absolute
 
 - Absolute length units: 
-They are not relative to anything else, and are generally considered to always be the same size.
+They are not relative to anything else and are generally considered to always be the same size.
 
 <img src="images/lengths.png" style="width:500px;"/>
 <br>
@@ -300,7 +300,7 @@ They are relative to something else, perhaps the size of the parent element's fo
 <p>&nbsp;</p>
 
 # COMMENTS IN CSS
-- Comments are used to explain the code, and may help when you edit the source code at a later date.
+- Comments are used to explain the code and may help when you edit the source code at a later date.
 
 - A comment in css starts with /* and ends with */
 <p>&nbsp;</p>

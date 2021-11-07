@@ -1,12 +1,12 @@
- # **Getting started with Git,VSCode and Hosting**
+ # **Getting started with Git, VSCode and Hosting**
 
  <p>&nbsp;</p>
 
 # WHAT IS GIT?
 
-- Git is a free and open source distributed **version control** system designed to handle everything from small to very large projects with speed and efficiency.
+- Git is a free and open-source distributed **version control** system designed to handle everything from small to very large projects with speed and efficiency.
 
-- It is a record keeping mechanism. If any changes are done then one gets to know who did it and what were the changes.
+- It is a record-keeping mechanism. If any changes are done then one gets to know who did it and what were the changes.
 - It is a client/local storage
 <br/><br/>
 ><h3>What is version control in git?</h3>
@@ -17,7 +17,7 @@
 
 # HOW DOES GIT WORK?
 
-With Git, a developer can have full history of their code repository locally. 
+With Git, a developer can have a full history of their code repository locally. 
 
 Traditionally, a Git workflow will involve the following steps:
 1. Creating a repository 
@@ -28,13 +28,12 @@ Traditionally, a Git workflow will involve the following steps:
 <br/><br/>
 ><h3>Why do we have to push the changes?</h3>
 
-- All the changes that you did until now were being saved locally. But it might happen that your computer crashes and you might 
-lose all these changes. We push the changes so that the code will be available on cloud and we can share and collaborate with others. 
+- All the changes that you did until now were being saved locally. But your computer might crash and you might lose all these changes. We push the changes so that the code will be available on the cloud and we can share and collaborate with others. 
 
 <p>&nbsp;</p>
 
 # WHAT IS GITHUB?
-- GitHub is a web-based interface that uses Git, the open source version control software that lets multiple people make separate changes to web pages at the same time.
+- GitHub is a web-based interface that uses Git, the open-source version control software that lets multiple people make separate changes to web pages at the same time.
 <br/><br/>
 
 ><h3>Difference between Git and GitHub:</h3>
@@ -52,7 +51,7 @@ If you don't need to work with files locally, GitHub lets you complete many Git-
 ><h3>Creating a repository</h3>
 - You can store a variety of projects in GitHub repositories. While creating a new repository add a name without any space and a 
 small description of what is present in the repository. 
-- Whenever a new repository is created, a .gitattributes file is automatically generated. It is a hidden file used by github desktop to do checks.
+- Whenever a new repository is created, a .gitattributes file is automatically generated. It is a hidden file used by the Github desktop to do checks.
 
 ><h3>Cloning a repository </h3>
 - When you want to make changes to a repository, you can clone it and work in that repository on your local machine 
@@ -61,24 +60,22 @@ small description of what is present in the repository.
 affecting the original repository. 
 
 ><h3> Being social</h3>
-- You can interact with people, repositories, and organizations on GitHub. See what others are working on and who they're connecting with from your personal dashboard.
+- You can interact with people, repositories, and organizations on GitHub. See what others are working on and who they're connecting with from your dashboard.
 
 <p>&nbsp;</p>
 
 # KNOWING HOW A DEV IN A TEAM WORKS?
 
 
-When working in a team, you can work in 
-different branches.
+When working in a team, you can work in different branches.
 ><h3>Branching </h3>
-- Use a branch to isolate development work without affecting other branches in the repository. Each repository has one default branch, and can have multiple other branches</h3>
+- Use a branch to isolate development work without affecting other branches in the repository. Each repository has one default branch and can have multiple other branches</h3>
 ><h3>Pull requests</h3>
-- Lets you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the 
-potential changes with collaborators and add follow-up commits before your changes are merged into the base(main) branch. If you're working in the shared repository model, it is advisable to use a separate branch for your pull request.
+- Let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base(main) branch. If you're working in the shared repository model, it is advisable to use a separate branch for your pull request.
 ><h3>Pull origin </h3>
-- When you want to make changes in the repository,always remember to pull origin to have all the changes on your local machine. Changes are pulled from server to client.
+- When you want to make changes in the repository, always remember to pull origin to have all the changes on your local machine. Changes are pulled from server to client.
 ><h3>Push origin</h3>
-- When you are done making changes  locally u need to push them so that everyone in the team can view your work. Changes are pushed from client to server.
+- When you are done making changes locally u need to push them so that everyone in the team can view your work. Changes are pushed from client to server.
 <p>&nbsp;</p>
 
 # ALL ABOUT COMMITS!
@@ -117,18 +114,16 @@ _(just like undo)_
 # HOW DOES THE INTERNET WORK?
 ><h3>Example </h3>
 
-- When you type the name of a website, the browser goes and asks the server if 
-it has this website. 
+- When you type the name of a website, the browser goes and asks the server if it has this website. 
 - There are 2 types of servers involved here: <br>
-server 1 - knows where website is / tells address of the website<br>
-server 2 - the one who actually hosts the website.<br>
-server 2 then gives the information to server 1 which further gives it to the browser and 
-then the browser downloads it for you.
+server 1 - knows where the website is/tells address of the website<br>
+server 2 - the one who hosts the website.<br>
+server 2 then gives the information to server 1 which further gives it to the browser and then the browser downloads it for you.
 <p>&nbsp;</p>
 
 # WHAT IS HOSTING?
-Web hosting is an online service that allows you to publish your website onto the internet.
-Anyone who has access to the internet, has access to your website
+Web hosting is an online service that allows you to publish your website on the internet.
+Anyone who has access to the internet has access to your website
 
 _Not hosting a good app is like baking a cake, decorating it, but not eating_ :(
   <p>&nbsp;</p>
@@ -136,31 +131,31 @@ _Not hosting a good app is like baking a cake, decorating it, but not eating_ :(
 # HOW TO HOST YOUR WEBSITE FOR FREE?
 _Now, let's enjoy the cake!!!!_
 
-There are many platforms to host your website for free like Vercel, Netlify, GitHub Pages, Heroku etc.
+There are many platforms to host your website for free like Vercel, Netlify, GitHub Pages, Heroku, etc.
 
 
-Netlify has github integration and is very simple to use.
+Netlify has GitHub integration and is very simple to use.
 
 ><h3>How to use netlify?</h3>
 - sign up to netlify using your GitHub login
-- Select new site from repository
+- Select a new site from a repository
 - Select your GitHub repository
 - And your website will get deployed
 - you can even edit the domain name
 <br></br>
 ><h3>What is continuous deployment?</h3>
-- Everytime you change something on the website and push it on github it will be published automatically
+- Every time you change something on the website and push it on GitHub it will be published automatically
 on netlify.
 <br></br>
 
 _Some things to remember:_
 - main file should be index.html otherwise netlify won't deploy
-- netlify deploys only from main branch
+- netlify deploys only from the main branch
 
 <p>&nbsp;</p>
 
 # GETTING FAMILIAR WITH VSCODE  
-An IDE (integrated development environment) made by Microsoft for Windows, Linux and macOS.
+An IDE (integrated development environment) made by Microsoft for Windows, Linux, and macOS.
 >Makes life easier with its ample amount of extensions
 
   A few examples:<br>
@@ -188,7 +183,7 @@ An IDE (integrated development environment) made by Microsoft for Windows, Linux
 
 <p>&nbsp;</p>
 
-***Know more about how to open PR's in a repo which you dont own*** 👇<br>
+***Know more about how to open PR's in a repo which you don't own*** 👇<br>
 https://youtu.be/jUxy4WNdc0s
 
 

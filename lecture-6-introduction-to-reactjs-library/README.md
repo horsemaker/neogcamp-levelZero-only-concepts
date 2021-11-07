@@ -1,7 +1,7 @@
 # **Introduction to ReactJS library**  
 
 
-# What is react?
+# What is React?
 
 <h3>React is a JavaScript library for building user interfaces.</h3>
 <p>&nbsp;</p>
@@ -79,7 +79,7 @@ Here, once the user clicks on the button, then function ‘activateLasers’ is 
 
 > <h3>onChange</pre>
 
-If there is a change in the input, then a funtion is triggered.
+If there is a change in the input, then a function is triggered.
 
 <pre>
 <img src="images/onchange.png" style="width:450px;">
@@ -114,7 +114,7 @@ processUserInput(greeting);
 
 - useState() is a built-in function that can be imported from the React library.
 - useState() returns an array. The first parameter in the array is the current state value. The second parameter is the function that will allow you to update the state value.
-- It accepts an argument which is the initial value of the first parameter.
+- It accepts an argument that is the initial value of the first parameter.
 
   Example:<br>
   <img src="images/useState.png" style="width:400px;"/>
@@ -138,7 +138,7 @@ we interact with the view using onClick then we update the state in event handle
 
 # Object.keys()
 
-The Object.keys() method returns an array of a given object's own enumerable property names, iterated in the same order that a normal loop would.
+The Object.keys() method returns an array of a given object's enumerable property names, iterated in the same order that a normal loop would.
 
 Syntax:
 
@@ -172,7 +172,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 - JavaScript arrays are used to store multiple values in a single variable.
 - It is a common practice to declare arrays with the const keyword.
-- Arrays are a special type of objects.
+- Arrays are a special type of object.
 - The typeof operator in JavaScript returns "object" for arrays
 
 > <h3>Creating an Array</h3>
