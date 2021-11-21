@@ -27,7 +27,7 @@ In CSS Stylesheet:
 ```
 
 > Class Vs Id 
-![Class Vs Id](classvsid.png)
+<img src="classvsid.png"/>
 ## querySelectorAll n querySelector ka diff
 all selects all 
 
@@ -59,7 +59,9 @@ radio buttons should have same name among the group.
 do not put html under js and js under html n hence we use addeventListener as that is the best practice
 
 ## for of
+The for...of statement creates a loop iterating over iterable objects, including: built-in String, Array, array-like objects (e.g., arguments or NodeList), TypedArray, Map, Set, and user-defined iterables.
 
+Here the iterator is the value itself.
 
 * Syntax:
 ```
@@ -68,7 +70,7 @@ for (variable of iterable) {
 }
 ```
 > Eg:
-![for of](forof.jpeg)
+<img src="forof.jpeg"/>
 
 
 ## Math in js
@@ -87,7 +89,7 @@ Math.sqrt()
 ```
 
 > Example <br>
-![example](matheg.jpeg)
+<img src="matheg.jpeg"/>
 
 # Know more:
 
