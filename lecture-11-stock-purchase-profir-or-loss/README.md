@@ -49,7 +49,7 @@ method formats a number using fixed-point notation.
 
 - Eg:
 
-    <img src="images/tofixed.jpeg" width="50%"/>
+    <img src="images/tofixed.jpeg" width="40%"/>
 
 <br>
 </br>
