@@ -43,7 +43,7 @@
 
     [`<input type="image">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/image)
     -  `type="image"` are used to create graphical submit buttons, i.e. submit buttons that take the form of an image rather than text.<br />
-        <img src="l8-images/input-button.png">
+        <img src="l8-images/input-button.png" width=20%>
 
     [`<input type="number">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number)
     -  `type="number"` are used to let the user enter a number. They include built-in validation to reject non-numerical entries.<br />
@@ -55,7 +55,7 @@
 
     [`<input type="radio">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio)
     -  `type="radio"` are generally used in radio groups—collections of radio buttons describing a set of related options.<br />
-         <img src="l8-images/radio.png">
+         <img src="l8-images/radio.png" width=10%>
 
     [`<input type="submit">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit)
     -  `type="submit"` are rendered as buttons. When the click event occurs (typically because the user clicked the button), the user agent attempts to submit the `form` to the server.<br />
@@ -128,7 +128,7 @@
     - `String(123)`       // returns a string from a number literal 123
     - `toString()` method does the same
     - More methods:
-    <img src="l8-images/round-off-values.png"/>
+    <img src="l8-images/round-off-values.png" width=60%/>
 - Converting Booleans to Numbers
     - The method `Number()` can also convert booleans to numbers.
     - `Number(false)`     // returns 0
