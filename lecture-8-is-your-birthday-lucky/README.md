@@ -14,56 +14,56 @@
 - If the type attribute is not specified, the default type adopted is text.
 - `<input>` types <br />
     [`<input type="button">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button)
-    - `type="button"` are rendered as simple push buttons.
-        <pre><input type="button" value="click"></pre><br />
+    - `type="button"` are rendered as simple push buttons.<br/>
+        <img src="l8-images/click.png"><br />
 
     [`<input type="checkbox">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
     - `type="checkbox"` are rendered by default as boxes that are checked (ticked) when activated.<br />
-        <pre><input type="checkbox"></pre>
+         <img src="l8-images/checkbox.png">
 
     [`<input type="color">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color)
     -  `type="color"` provide a user interface element that lets a user specify a color, either by using a visual color picker interface or by entering the color into a text field in #rrggbb hexadecimal format.<br />
-        <pre><input type="color" id="head" name="head" value="cyan"><label for="cyan"> Choose a Color</label></pre>
+         <img src="l8-images/color.png">
 
     [`<input type="date">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date)
     -  `type="date"` create input fields that let the user enter a date, either with a textbox that validates the input or a special date picker interface.<br />
-        <pre><input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31"></pre>
+         <img src="l8-images/date.png">
 
     [`<input type="datetime-local">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/datetime-local)
     -  `type="datetime-local"` create input controls that let the user easily enter both a date and a time, including the year, month, and day as well as the time in hours and minutes.<br />
-        <pre><input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-12-07T19:30" min="2021-12-08T00:00" max="2021-12-12T00:00"></pre>
+         <img src="l8-images/date-time.png">
 
     [`<input type="file">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file)
     -  `type="file"` let the user choose one or more files from their device storage.<br />
-        <pre><input type="file"></pre>
+        <img src="l8-images/file.png">
 
     [`<input type="hidden">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden)
     -  `type="hidden"` let web developers include data that cannot be seen or modified by users when a form is submitted<br />
-        <pre><input type="hidden"></pre>
+        
 
     [`<input type="image">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/image)
     -  `type="image"` are used to create graphical submit buttons, i.e. submit buttons that take the form of an image rather than text.<br />
-        <pre><input type="image" id="image" alt="Login" src="l8-images/button.png"></pre>
+        <img src="l8-images/input-button.png">
 
     [`<input type="number">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number)
     -  `type="number"` are used to let the user enter a number. They include built-in validation to reject non-numerical entries.<br />
-        <pre><input type="number" min="10" max="100" placeholder="enter numerical values only!" style="width:60%;"></pre>
+         <img src="l8-images/number.png">
 
     [`<input type="password">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password)
     -  `type="password"` provide a way for the user to securely enter a password.<br />
-        <pre><input type="password" id="pass" name="password" minlength="8" placeholder="enter your password"></pre>
+         <img src="l8-images/password.png">
 
     [`<input type="radio">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio)
     -  `type="radio"` are generally used in radio groups—collections of radio buttons describing a set of related options.<br />
-        <pre><input type="radio" id="status" name="on" value="on"> <label>ON</label><br/><input type="radio" id="status" name="off" value="off"> <label>OFF</label></pre>
+         <img src="l8-images/radio.png">
 
     [`<input type="submit">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit)
     -  `type="submit"` are rendered as buttons. When the click event occurs (typically because the user clicked the button), the user agent attempts to submit the `form` to the server.<br />
-        <pre><input type="submit" value="Send Request"></pre>
+        <img src="l8-images/send-request.png">
 
     [`<input type="text">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text)
     -  `type="text"` create basic single-line text fields.<br />
-        <pre><input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10"></pre>
+        <img src="l8-images/text.png">
 
 ### When to use `class` and when to use `id`?
 - `class` is like a type of the item whereas `id` is like a unique code assigned to the item.
