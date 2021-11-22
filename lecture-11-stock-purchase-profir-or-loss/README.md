@@ -6,7 +6,7 @@ The `<main>` HTML element represents the primary content of a document's body.
 The main content area contains content that is directly related to or expands on a document's central topic or an application's central functionality.
 - Eg: 
 
-    <img src="images/main.jpeg" width="60%"/>
+    <img src="images/main.jpeg" width="70%"/>
 
 <br>
 </br>
@@ -16,7 +16,7 @@ The HTML element `<label>` represents a caption for a user interface item.
 To associate the `<label>` with an `<input>` element, add an id attribute to the `<input>`. The `<label>` then requires a for attribute with the same value as the input's id.
 - Eg:
 
-    <img src="images/label.jpeg" width="60%"/>
+    <img src="images/label.jpeg" width="70%"/>
 
 <br>
 </br>
